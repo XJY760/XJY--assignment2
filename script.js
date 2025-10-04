@@ -145,7 +145,9 @@ class TaskManager {
     document.getElementById('totalTasks').textContent = totalTasks;
     document.getElementById('completedTasks').textContent = completedTasks;
     document.getElementById('pendingTasks').textContent = pendingTasks;
+    document.getElementById('todayTasks').textContent = pendingTasks;
   }
+
 
   saveTasks() {
     localStorage.setItem('taskManager_tasks', JSON.stringify(this.tasks));

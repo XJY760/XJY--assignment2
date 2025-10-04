@@ -16,6 +16,10 @@
       <p>高效管理你的日常任务</p>
     </header>
 
+    <div class="welcome-banner">
+      <p>🎉 欢迎使用任务管理系统！今天你有 <span id="todayTasks">0</span> 个待完成任务</p>
+    </div>
+
     <div class="task-input-section">
       <input type="text" id="taskInput" placeholder="输入新任务...">
       <select id="taskCategory">
@@ -33,6 +37,10 @@
       <button class="filter-btn" data-filter="work">工作</button>
       <button class="filter-btn" data-filter="study">学习</button>
       <button class="filter-btn" data-filter="shopping">购物</button>
+    </div>
+    <div class="search-section">
+      <input type="text" id="searchInput" placeholder="搜索任务...">
+      <button id="searchBtn"><i class="fas fa-search"></i> 搜索</button>
     </div>
 
     <div class="stats-section">
